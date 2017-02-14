@@ -29,8 +29,7 @@ Player::Player() : playerInfo(PlayerState::Right)
 
 Player::~Player()
 {
-	delete leftWalk;
-	delete rightWalk;
+
 }
 
 void Player::Update(float deltaTime)
