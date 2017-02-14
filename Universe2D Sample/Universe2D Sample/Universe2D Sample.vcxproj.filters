@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Precompiled.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Assets\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Assets\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{28b74c19-9b76-4f46-b118-afa0058dd1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Scene">
+      <UniqueIdentifier>{5342dc8e-5889-4cf4-9bfc-4436595056aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{30878b69-5909-4581-bf3b-97b219fae20f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Player">
+      <UniqueIdentifier>{d0c56cca-7640-4342-b704-e1f1ffdec62a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Assets\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Assets\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
